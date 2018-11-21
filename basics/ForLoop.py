@@ -14,4 +14,3 @@ for index in range(10):
 for index in range(len(fruits)):
     print(index)
     print(fruits[index])
-
