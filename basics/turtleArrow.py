@@ -9,9 +9,12 @@ from turtle import *
 
 # Step 3: Move in the direction Bob's facing for 50 pixels
 # import.forward(50)
+color("red", "green")
 forward(50)
 # Step 4: Move in the direction Bob's turns for 90 degrees
 left(90)
+# color("blue", "green")
+color("blue")
 forward(50)
 
 # Step 4: We're done!

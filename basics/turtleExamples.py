@@ -19,4 +19,22 @@ for i in range(num_sides):
     forward(side_length)
     right(angle)
 
-done()
+penup()
+for i in range(1, 400, 50):
+    print(i)
+    right(90)
+    forward(i)
+    right(270)
+    pendown()
+    circle(i)
+    penup()
+    home()
+
+penup()
+forward(25)
+# right(90)
+# forward(25)
+right(270)
+circle(25)
+
+# done()
